@@ -12,9 +12,12 @@ end
 def title=(title)
   @title = title
 end
-  def author=(author)
+def author 
+  @author
+end
+def author=(author)
     @author = author
-  end
+end
   
   def page_count=(num)
     @page_count = num
